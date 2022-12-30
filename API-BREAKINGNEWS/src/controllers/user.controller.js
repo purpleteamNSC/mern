@@ -1,8 +1,8 @@
-const soma = (r,q) =>{
-    const soma = 100 + 1;
+const create = (req, res)=>{
+    const user = req.body;
 
-    res.send({soma: soma});
-};
+    console.log(user)
+}
 
-module.exports = {soma};
+module.exports = { create };
 
