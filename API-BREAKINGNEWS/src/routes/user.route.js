@@ -1,4 +1,4 @@
-const route = require('express').route();
+const route = require('express').Route();
 const userController = require('../controllers/user.controller')
 
 route.get("/", userController.soma)
